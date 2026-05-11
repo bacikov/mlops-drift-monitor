@@ -1,0 +1,64 @@
+{
+  "version": "20260506_161949",
+  "champion": "random_forest",
+  "algorithms": [
+    "random_forest",
+    "xgboost",
+    "logistic_regression"
+  ],
+  "label": "Training on energy_reference_sample.csv",
+  "saved_at": "2026-05-06T16:19:50.160738",
+  "feature_cols": [
+    "hour",
+    "dayofweek",
+    "month",
+    "quarter",
+    "year",
+    "dayofyear",
+    "weekofyear",
+    "is_weekend",
+    "is_night",
+    "is_morning",
+    "is_peak",
+    "season",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "target_col": "target",
+  "metrics": {
+    "random_forest": {
+      "mae": 1295.08,
+      "rmse": 1854.74,
+      "r2": 0.9156,
+      "f1": 0.9156
+    },
+    "xgboost": {
+      "mae": 1755.95,
+      "rmse": 2426.7,
+      "r2": 0.8555,
+      "f1": 0.8555
+    },
+    "logistic_regression": {
+      "mae": 3415.8,
+      "rmse": 4354.89,
+      "r2": 0.5346,
+      "f1": 0.5346
+    }
+  },
+  "rates": {
+    "random_forest": {
+      "train_rate": 3223272.07,
+      "predicted_rate": 3226085.19
+    },
+    "xgboost": {
+      "train_rate": 3223272.07,
+      "predicted_rate": 3223233.59
+    },
+    "logistic_regression": {
+      "train_rate": 3223272.07,
+      "predicted_rate": 3230419.93
+    }
+  }
+}

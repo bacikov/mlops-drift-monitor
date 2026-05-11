@@ -1,0 +1,59 @@
+{
+  "version": "20260504_212502",
+  "champion": "xgboost",
+  "algorithms": [
+    "random_forest",
+    "xgboost",
+    "logistic_regression"
+  ],
+  "label": "Training on airline_reference_sample.csv",
+  "saved_at": "2026-05-04T21:25:02.491598",
+  "feature_cols": [
+    "CRS_ELAPSED_TIME",
+    "DISTANCE",
+    "carrier_code",
+    "origin_freq",
+    "dest_freq",
+    "dep_hour",
+    "arr_hour",
+    "target"
+  ],
+  "target_col": "DEP_DELAY",
+  "metrics": {
+    "random_forest": {
+      "accuracy": 0.6869,
+      "f1": 0.6384,
+      "precision": 0.6514,
+      "recall": 0.6258,
+      "auc_roc": 0.7384
+    },
+    "xgboost": {
+      "accuracy": 0.7422,
+      "f1": 0.6564,
+      "precision": 0.7977,
+      "recall": 0.5576,
+      "auc_roc": 0.7888
+    },
+    "logistic_regression": {
+      "accuracy": 0.6967,
+      "f1": 0.5738,
+      "precision": 0.7561,
+      "recall": 0.4623,
+      "auc_roc": 0.7326
+    }
+  },
+  "rates": {
+    "random_forest": {
+      "train_rate": 44.15,
+      "predicted_rate": 42.42
+    },
+    "xgboost": {
+      "train_rate": 44.15,
+      "predicted_rate": 30.86
+    },
+    "logistic_regression": {
+      "train_rate": 44.15,
+      "predicted_rate": 27.0
+    }
+  }
+}

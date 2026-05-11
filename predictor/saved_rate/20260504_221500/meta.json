@@ -1,0 +1,31 @@
+{
+  "version": "20260504_221500",
+  "champion": "xgb_regressor",
+  "algorithms": [
+    "rf_regressor",
+    "xgb_regressor",
+    "linear"
+  ],
+  "label": "Retrain on May-Aug 2018",
+  "saved_at": "2026-05-04T22:15:00.087915",
+  "metrics": {
+    "rf_regressor": {
+      "mae": 1.334,
+      "rmse": 1.679,
+      "r2": 0.806,
+      "cv_mae": 2.995
+    },
+    "xgb_regressor": {
+      "mae": 0.343,
+      "rmse": 0.439,
+      "r2": 0.9867,
+      "cv_mae": 2.821
+    },
+    "linear": {
+      "mae": 2.015,
+      "rmse": 2.513,
+      "r2": 0.5651,
+      "cv_mae": 3.488
+    }
+  }
+}

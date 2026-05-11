@@ -1,0 +1,59 @@
+{
+  "version": "20260508_005720",
+  "champion": "xgboost",
+  "algorithms": [
+    "random_forest",
+    "xgboost",
+    "logistic_regression"
+  ],
+  "label": "Expanding Window Retrain #1",
+  "saved_at": "2026-05-08T00:57:20.816813",
+  "feature_cols": [
+    "yr",
+    "mnth",
+    "hr",
+    "holiday",
+    "weekday",
+    "workingday",
+    "weathersit",
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed"
+  ],
+  "target_col": "target",
+  "metrics": {
+    "random_forest": {
+      "mae": 25.96,
+      "rmse": 43.58,
+      "r2": 0.9205,
+      "f1": 0.9205
+    },
+    "xgboost": {
+      "mae": 26.04,
+      "rmse": 42.21,
+      "r2": 0.9255,
+      "f1": 0.9255
+    },
+    "logistic_regression": {
+      "mae": 89.92,
+      "rmse": 122.13,
+      "r2": 0.3758,
+      "f1": 0.3758
+    }
+  },
+  "rates": {
+    "random_forest": {
+      "train_rate": 15493.99,
+      "predicted_rate": 15309.2
+    },
+    "xgboost": {
+      "train_rate": 15493.99,
+      "predicted_rate": 15211.42
+    },
+    "logistic_regression": {
+      "train_rate": 15493.99,
+      "predicted_rate": 15258.69
+    }
+  }
+}

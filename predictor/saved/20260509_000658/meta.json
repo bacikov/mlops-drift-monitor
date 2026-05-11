@@ -1,0 +1,59 @@
+{
+  "version": "20260509_000658",
+  "champion": "random_forest",
+  "algorithms": [
+    "random_forest",
+    "xgboost",
+    "logistic_regression"
+  ],
+  "label": "Training on bike_reference.csv",
+  "saved_at": "2026-05-09T00:06:58.739276",
+  "feature_cols": [
+    "mnth",
+    "hr",
+    "holiday",
+    "weekday",
+    "workingday",
+    "weathersit",
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed",
+    "lag_1h"
+  ],
+  "target_col": "target",
+  "metrics": {
+    "random_forest": {
+      "mae": 16.36,
+      "rmse": 25.68,
+      "r2": 0.9644,
+      "f1": 0.9644
+    },
+    "xgboost": {
+      "mae": 17.18,
+      "rmse": 26.06,
+      "r2": 0.9634,
+      "f1": 0.9634
+    },
+    "logistic_regression": {
+      "mae": 48.91,
+      "rmse": 71.03,
+      "r2": 0.7278,
+      "f1": 0.7278
+    }
+  },
+  "rates": {
+    "random_forest": {
+      "train_rate": 14379.44,
+      "predicted_rate": 14588.22
+    },
+    "xgboost": {
+      "train_rate": 14379.44,
+      "predicted_rate": 14525.8
+    },
+    "logistic_regression": {
+      "train_rate": 14379.44,
+      "predicted_rate": 14419.15
+    }
+  }
+}

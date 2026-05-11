@@ -1,0 +1,45 @@
+{
+  "version": "20260504_232646",
+  "champion": "linear",
+  "algorithms": [
+    "rf_regressor",
+    "xgb_regressor",
+    "linear",
+    "persistence",
+    "mean_baseline"
+  ],
+  "label": "Training on airline_rate_train.csv (2009-2016)",
+  "saved_at": "2026-05-04T23:26:46.300378",
+  "metrics": {
+    "rf_regressor": {
+      "mae": 2.341,
+      "rmse": 3.013,
+      "r2": 0.6815,
+      "cv_mae": 3.629
+    },
+    "xgb_regressor": {
+      "mae": 1.732,
+      "rmse": 2.211,
+      "r2": 0.8284,
+      "cv_mae": 4.271
+    },
+    "linear": {
+      "mae": 2.852,
+      "rmse": 3.622,
+      "r2": 0.5396,
+      "cv_mae": 3.448
+    },
+    "persistence": {
+      "mae": 3.693,
+      "rmse": 4.865,
+      "r2": 0.1694,
+      "cv_mae": 3.693
+    },
+    "mean_baseline": {
+      "mae": 4.239,
+      "rmse": 5.339,
+      "r2": 0.0,
+      "cv_mae": 4.239
+    }
+  }
+}

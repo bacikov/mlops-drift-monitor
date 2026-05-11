@@ -1,0 +1,45 @@
+{
+  "version": "20260504_235959",
+  "champion": "rf_regressor",
+  "algorithms": [
+    "rf_regressor",
+    "xgb_regressor",
+    "linear",
+    "persistence",
+    "mean_baseline"
+  ],
+  "label": "Retrain on 2017 (validation)",
+  "saved_at": "2026-05-04T23:59:59.659805",
+  "metrics": {
+    "rf_regressor": {
+      "mae": 2.132,
+      "rmse": 2.737,
+      "r2": 0.7255,
+      "cv_mae": 3.43
+    },
+    "xgb_regressor": {
+      "mae": 1.196,
+      "rmse": 1.543,
+      "r2": 0.9127,
+      "cv_mae": 3.519
+    },
+    "linear": {
+      "mae": 2.883,
+      "rmse": 3.678,
+      "r2": 0.5045,
+      "cv_mae": 3.46
+    },
+    "persistence": {
+      "mae": 5.161,
+      "rmse": 6.503,
+      "r2": -0.5489,
+      "cv_mae": 5.161
+    },
+    "mean_baseline": {
+      "mae": 4.207,
+      "rmse": 5.225,
+      "r2": 0.0,
+      "cv_mae": 4.207
+    }
+  }
+}

@@ -1,0 +1,972 @@
+[
+  {
+    "timestamp": "2026-05-04T21:20:43.241073",
+    "dataset_name": "airline_new_early_sample.csv",
+    "use_case": "Airline Delay",
+    "champion": "xgboost",
+    "drift_score": 0.2746,
+    "severity": "low",
+    "ref_rate": 17.79,
+    "predicted_rate": 17.04,
+    "actual_rate": 21.79,
+    "rate_error": 4.75,
+    "f1": 0.8125,
+    "auc_roc": 0.9276,
+    "drifted_features": [
+      "carrier_code",
+      "origin_freq",
+      "dest_freq"
+    ],
+    "retrained": false,
+    "model_version": "20260504_212024",
+    "all_algo_rates": {
+      "random_forest": 17.08,
+      "xgboost": 17.04,
+      "logistic_regression": 24.36
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.809,
+      "xgboost": 0.8125,
+      "logistic_regression": 0.7824
+    }
+  },
+  {
+    "timestamp": "2026-05-04T21:28:50.831190",
+    "dataset_name": "airline_new_early_sample.csv",
+    "use_case": "Airline Delay",
+    "champion": "xgboost",
+    "drift_score": 0.2746,
+    "severity": "low",
+    "ref_rate": 17.79,
+    "predicted_rate": 17.04,
+    "actual_rate": 21.79,
+    "rate_error": 4.75,
+    "f1": 0.8125,
+    "auc_roc": 0.9276,
+    "drifted_features": [
+      "carrier_code",
+      "origin_freq",
+      "dest_freq"
+    ],
+    "retrained": false,
+    "model_version": "20260504_212843",
+    "all_algo_rates": {
+      "random_forest": 17.08,
+      "xgboost": 17.04,
+      "logistic_regression": 24.36
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.809,
+      "xgboost": 0.8125,
+      "logistic_regression": 0.7824
+    }
+  },
+  {
+    "timestamp": "2026-05-04T21:30:29.594228",
+    "dataset_name": "airline_new_early_sample.csv",
+    "use_case": "Airline Delay",
+    "champion": "xgboost",
+    "drift_score": 0.2746,
+    "severity": "low",
+    "ref_rate": 17.79,
+    "predicted_rate": 17.04,
+    "actual_rate": 21.79,
+    "rate_error": 4.75,
+    "f1": 0.8125,
+    "auc_roc": 0.9276,
+    "drifted_features": [
+      "carrier_code",
+      "origin_freq",
+      "dest_freq"
+    ],
+    "retrained": false,
+    "model_version": "20260504_213026",
+    "all_algo_rates": {
+      "random_forest": 17.08,
+      "xgboost": 17.04,
+      "logistic_regression": 24.36
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.809,
+      "xgboost": 0.8125,
+      "logistic_regression": 0.7824
+    }
+  },
+  {
+    "timestamp": "2026-05-06T16:33:52.225297",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163347",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:33:54.922022",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163347",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:33:58.042059",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163347",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:34:00.095570",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163347",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:34:35.086668",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163432",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:35:23.031526",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163519",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:35:24.534065",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163519",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:36:52.255224",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163646",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:36:55.525338",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163646",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:36:56.562702",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163646",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:36:57.231698",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163646",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:36:59.621074",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163646",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:38:44.372721",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163838",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:38:46.668460",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 0,
+    "actual_rate": null,
+    "rate_error": null,
+    "f1": null,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_163838",
+    "all_algo_rates": {},
+    "all_algo_f1s": {}
+  },
+  {
+    "timestamp": "2026-05-06T16:41:06.789512",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 31799.59,
+    "actual_rate": 30994.84,
+    "rate_error": 3304.1,
+    "f1": 0.5271,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_164102",
+    "all_algo_rates": {
+      "random_forest": 31799.59,
+      "xgboost": 31773.38,
+      "logistic_regression": 31949.81
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.5271,
+      "xgboost": 0.5718,
+      "logistic_regression": 0.4758
+    }
+  },
+  {
+    "timestamp": "2026-05-06T16:43:31.317704",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 31799.59,
+    "actual_rate": 30994.84,
+    "rate_error": 3304.1,
+    "f1": 0.5271,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_164325",
+    "all_algo_rates": {
+      "random_forest": 31799.59,
+      "xgboost": 31773.38,
+      "logistic_regression": 31949.81
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.5271,
+      "xgboost": 0.5718,
+      "logistic_regression": 0.4758
+    }
+  },
+  {
+    "timestamp": "2026-05-06T16:46:42.283521",
+    "dataset_name": "energy_early_sample.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0684,
+    "severity": "none",
+    "ref_rate": 32232.72074,
+    "predicted_rate": 31799.59,
+    "actual_rate": 30994.84,
+    "rate_error": 3304.1,
+    "f1": 0.5271,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_164634",
+    "all_algo_rates": {
+      "random_forest": 31799.59,
+      "xgboost": 31773.38,
+      "logistic_regression": 31949.81
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.5271,
+      "xgboost": 0.5718,
+      "logistic_regression": 0.4758
+    }
+  },
+  {
+    "timestamp": "2026-05-06T17:20:05.160563",
+    "dataset_name": "energy_new_early.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.0644,
+    "severity": "none",
+    "ref_rate": 32247.890818838336,
+    "predicted_rate": 31703.87,
+    "actual_rate": 30994.84,
+    "rate_error": 3369.52,
+    "f1": 0.4931,
+    "auc_roc": null,
+    "drifted_features": [
+      "year"
+    ],
+    "retrained": false,
+    "model_version": "20260506_171952",
+    "all_algo_rates": {
+      "random_forest": 31703.87,
+      "xgboost": 31715.3,
+      "logistic_regression": 31851.37
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.4931,
+      "xgboost": 0.5709,
+      "logistic_regression": 0.4784
+    }
+  },
+  {
+    "timestamp": "2026-05-06T17:20:58.114013",
+    "dataset_name": "energy_new_late.csv",
+    "use_case": "Energy Consumption",
+    "champion": "random_forest",
+    "drift_score": 0.4902,
+    "severity": "medium",
+    "ref_rate": 32247.890818838336,
+    "predicted_rate": 32831.14,
+    "actual_rate": 31782.6,
+    "rate_error": 3530.21,
+    "f1": 0.4018,
+    "auc_roc": null,
+    "drifted_features": [
+      "month",
+      "quarter",
+      "year",
+      "dayofyear",
+      "weekofyear",
+      "season",
+      "month_sin",
+      "month_cos"
+    ],
+    "retrained": false,
+    "model_version": "20260506_172042",
+    "all_algo_rates": {
+      "random_forest": 32831.14,
+      "xgboost": 32905.35,
+      "logistic_regression": 31923.19
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.4018,
+      "xgboost": 0.5462,
+      "logistic_regression": 0.4608
+    }
+  },
+  {
+    "timestamp": "2026-05-07T14:24:17.506930",
+    "dataset_name": "bike_new_early.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4409,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 182.24,
+    "actual_rate": 111.11,
+    "rate_error": 75.3,
+    "f1": 0.2828,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260507_142408",
+    "all_algo_rates": {
+      "random_forest": 183.36,
+      "xgboost": 182.24,
+      "logistic_regression": 63.91
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.2779,
+      "xgboost": 0.2828,
+      "logistic_regression": -0.184
+    }
+  },
+  {
+    "timestamp": "2026-05-07T14:24:51.445981",
+    "dataset_name": "bike_new_late.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4122,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 243.62,
+    "actual_rate": 208.34,
+    "rate_error": 47.89,
+    "f1": 0.8645,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260507_142408",
+    "all_algo_rates": {
+      "random_forest": 239.59,
+      "xgboost": 243.62,
+      "logistic_regression": 199.36
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.8627,
+      "xgboost": 0.8645,
+      "logistic_regression": 0.3685
+    }
+  },
+  {
+    "timestamp": "2026-05-07T14:28:13.039021",
+    "dataset_name": "bike_new_early.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4409,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 182.24,
+    "actual_rate": 111.11,
+    "rate_error": 75.3,
+    "f1": 0.2828,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260507_142807",
+    "all_algo_rates": {
+      "random_forest": 183.36,
+      "xgboost": 182.24,
+      "logistic_regression": 63.91
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.2779,
+      "xgboost": 0.2828,
+      "logistic_regression": -0.184
+    }
+  },
+  {
+    "timestamp": "2026-05-08T00:56:03.988573",
+    "dataset_name": "bike_new_early.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4409,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 182.24,
+    "actual_rate": 111.11,
+    "rate_error": 75.3,
+    "f1": 0.2828,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_005554",
+    "all_algo_rates": {
+      "random_forest": 183.36,
+      "xgboost": 182.24,
+      "logistic_regression": 63.91
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.2779,
+      "xgboost": 0.2828,
+      "logistic_regression": -0.184
+    }
+  },
+  {
+    "timestamp": "2026-05-08T00:56:43.827304",
+    "dataset_name": "bike_new_late.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4122,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 243.62,
+    "actual_rate": 208.34,
+    "rate_error": 47.89,
+    "f1": 0.8645,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_005635",
+    "all_algo_rates": {
+      "random_forest": 239.59,
+      "xgboost": 243.62,
+      "logistic_regression": 199.36
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.8627,
+      "xgboost": 0.8645,
+      "logistic_regression": 0.3685
+    }
+  },
+  {
+    "timestamp": "2026-05-08T00:57:08.783171",
+    "dataset_name": "bike_new_early.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4409,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 182.24,
+    "actual_rate": 111.11,
+    "rate_error": 75.3,
+    "f1": 0.2828,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_005704",
+    "all_algo_rates": {
+      "random_forest": 183.36,
+      "xgboost": 182.24,
+      "logistic_regression": 63.91
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.2779,
+      "xgboost": 0.2828,
+      "logistic_regression": -0.184
+    }
+  },
+  {
+    "timestamp": "2026-05-08T00:58:10.498354",
+    "dataset_name": "bike_new_late.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4122,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 193.8,
+    "actual_rate": 208.34,
+    "rate_error": 44.03,
+    "f1": 0.8763,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_005720",
+    "all_algo_rates": {
+      "random_forest": 197.3,
+      "xgboost": 193.8,
+      "logistic_regression": 222.96
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.8723,
+      "xgboost": 0.8763,
+      "logistic_regression": 0.3748
+    }
+  },
+  {
+    "timestamp": "2026-05-08T01:02:56.913582",
+    "dataset_name": "bike_new_late.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4122,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 243.62,
+    "actual_rate": 208.34,
+    "rate_error": 47.89,
+    "f1": 0.8645,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_010248",
+    "all_algo_rates": {
+      "random_forest": 239.59,
+      "xgboost": 243.62,
+      "logistic_regression": 199.36
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.8627,
+      "xgboost": 0.8645,
+      "logistic_regression": 0.3685
+    }
+  },
+  {
+    "timestamp": "2026-05-08T23:25:34.780034",
+    "dataset_name": "bike_new_early.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4409,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 182.24,
+    "actual_rate": 111.11,
+    "rate_error": 75.3,
+    "f1": 0.2828,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_232528",
+    "all_algo_rates": {
+      "random_forest": 183.36,
+      "xgboost": 182.24,
+      "logistic_regression": 63.91
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.2779,
+      "xgboost": 0.2828,
+      "logistic_regression": -0.184
+    }
+  },
+  {
+    "timestamp": "2026-05-08T23:41:32.051638",
+    "dataset_name": "bike_new_early.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4409,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 182.24,
+    "actual_rate": 111.11,
+    "rate_error": 75.3,
+    "f1": 0.2828,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_234119",
+    "all_algo_rates": {
+      "random_forest": 183.36,
+      "xgboost": 182.24,
+      "logistic_regression": 63.91
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.2779,
+      "xgboost": 0.2828,
+      "logistic_regression": -0.184
+    }
+  },
+  {
+    "timestamp": "2026-05-08T23:43:09.104012",
+    "dataset_name": "bike_new_late.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4122,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 193.8,
+    "actual_rate": 208.34,
+    "rate_error": 44.03,
+    "f1": 0.8763,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_234157",
+    "all_algo_rates": {
+      "random_forest": 197.3,
+      "xgboost": 193.8,
+      "logistic_regression": 222.96
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.8723,
+      "xgboost": 0.8763,
+      "logistic_regression": 0.3748
+    }
+  },
+  {
+    "timestamp": "2026-05-08T23:50:12.061431",
+    "dataset_name": "bike_new_late.csv",
+    "use_case": "Bike Sharing",
+    "champion": "xgboost",
+    "drift_score": 0.4122,
+    "severity": "medium",
+    "ref_rate": 198.86885633270322,
+    "predicted_rate": 243.62,
+    "actual_rate": 208.34,
+    "rate_error": 47.89,
+    "f1": 0.8645,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "retrained": false,
+    "model_version": "20260508_235007",
+    "all_algo_rates": {
+      "random_forest": 239.59,
+      "xgboost": 243.62,
+      "logistic_regression": 199.36
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.8627,
+      "xgboost": 0.8645,
+      "logistic_regression": 0.3685
+    }
+  },
+  {
+    "timestamp": "2026-05-09T00:07:05.242416",
+    "dataset_name": "bike_new_early.csv",
+    "use_case": "Bike Sharing",
+    "champion": "random_forest",
+    "drift_score": 0.3299,
+    "severity": "medium",
+    "ref_rate": 143.79444765760556,
+    "predicted_rate": 181.54,
+    "actual_rate": 215.16,
+    "rate_error": 45.62,
+    "f1": 0.8411,
+    "auc_roc": null,
+    "drifted_features": [
+      "mnth",
+      "hum",
+      "lag_1h"
+    ],
+    "retrained": false,
+    "model_version": "20260509_000658",
+    "all_algo_rates": {
+      "random_forest": 181.54,
+      "xgboost": 180.7,
+      "logistic_regression": 195.75,
+      "mean_baseline": 143.79,
+      "persistence_baseline": 215.13
+    },
+    "all_algo_f1s": {
+      "random_forest": 0.8411,
+      "xgboost": 0.8544,
+      "logistic_regression": 0.6944,
+      "mean_baseline": -0.1332,
+      "persistence_baseline": 0.6705
+    }
+  }
+]

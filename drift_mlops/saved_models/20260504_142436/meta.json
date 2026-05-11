@@ -1,0 +1,28 @@
+{
+  "version": "20260504_142436",
+  "champion": "xgboost",
+  "algorithms": [
+    "random_forest",
+    "xgboost",
+    "logistic_regression"
+  ],
+  "label": "Demo initial training",
+  "saved_at": "2026-05-04T14:24:36.413466",
+  "metrics": {
+    "random_forest": {
+      "accuracy": 0.9269,
+      "f1": 0.7718,
+      "auc_roc": 0.9158
+    },
+    "xgboost": {
+      "accuracy": 0.9321,
+      "f1": 0.7829,
+      "auc_roc": 0.9292
+    },
+    "logistic_regression": {
+      "accuracy": 0.9019,
+      "f1": 0.7442,
+      "auc_roc": 0.9211
+    }
+  }
+}
