@@ -9,5 +9,4 @@ drift_mlops/real_data/airline/
 drift_mlops/real_data/bikesharing/
 drift_mlops/real_data/credit/
 drift_mlops/real_data/weather/
-drift_mlops/real_data/*.csv
 drift_mlops/real_data/*.paruqet
